@@ -1,0 +1,92 @@
+
+.wrapper {
+  width: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0px 16px 0px 16px;
+}
+
+.logo{
+    padding: 21px 0 24px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu_main{
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.row_wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 37px;
+    padding-inline: 11px;
+    padding-block: 7px;
+    background-color: white;
+    color: #050A1D;
+    opacity: 0.4;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.active {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 37px;
+    padding-inline: 11px;
+    padding-block: 7px;
+    background-color: #1B3491;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.member_active {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 37px;
+    padding-inline: 11px;
+    padding-block: 7px;
+    background-color: #1B3491;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 308px;
+}
+
+.image {
+    opacity: 0.4;
+}
+
+.row_text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.team {
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 51px;
+}
+
+.member {
+    margin-bottom: 308px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 37px;
+    padding-inline: 11px;
+    padding-block: 7px;
+    background-color: white;
+    color: #050A1D;
+    opacity: 0.4;
+    border-radius: 3px;
+}
+
